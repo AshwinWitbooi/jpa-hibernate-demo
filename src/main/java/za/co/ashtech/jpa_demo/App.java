@@ -21,12 +21,9 @@ import za.co.ashtech.jpa_demo.simplilearn.db.entities.Person;
 public class App 
 {
     public static void main( String[] args )
-    {
-        System.out.println( "Hello World! JPA" );
-        setUpH2DBWithJPA();
-        
+    {        
         System.out.println( "Hello World! Hibernate Refresher" );
-//        setUpH2DBWithHibernate(); 
+        setUpH2DBWithHibernate(); 
     }
     
     
